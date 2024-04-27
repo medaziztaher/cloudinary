@@ -1,0 +1,35 @@
+{
+  "name": "cloudinary",
+  "version": "1.0.0",
+  "description": "a simple code to use multer,cloudinary to store images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medaziztaher/cloudinary.git"
+  },
+  "keywords": [
+    "multer",
+    "cloudinary",
+    "node.js",
+    "mongodb"
+  ],
+  "author": "Taher Mouhamed Aziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medaziztaher/cloudinary/issues"
+  },
+  "homepage": "https://github.com/medaziztaher/cloudinary#readme",
+  "dependencies": {
+    "cloudinary": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.3.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
